@@ -15,32 +15,32 @@ body {
 
 button,
 button:active {
-  background-color: rgb(234,178,156);
+  background-color: rgb(66,189,219);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+  box-shadow: 0.2em 0.2em rgb(96, 124, 141);
+  -webkit-box-shadow: 0.2em 0.2em rgb(96, 124, 141);
+  -moz-box-shadow: 0.2em 0.2em rgb(96, 124, 141);
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+  box-shadow: 0.2em 0.2em rgb(96, 124, 141) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(96, 124, 141) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(96, 124, 141) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
+  background-color: rgb(218, 219, 224); 
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px sienna;
+  box-shadow: 10px 10px CornflowerBlue;
 }
 
 /* Display + Stop/Start/Reset Controls */
