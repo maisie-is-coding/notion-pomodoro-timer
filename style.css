@@ -15,32 +15,32 @@ body {
 
 button,
 button:active {
-  background-color: rgb(66,189,219);
+  background-color: rgb(133, 144, 192);    /* PLAY AND RESET BUTTONS */
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(96, 124, 141);
-  -webkit-box-shadow: 0.2em 0.2em rgb(96, 124, 141);
-  -moz-box-shadow: 0.2em 0.2em rgb(96, 124, 141);
+  box-shadow: 0.2em 0.2em rgb(97, 102, 145);    /* BUTTONS DROP SHADOW */
+  -webkit-box-shadow: 0.2em 0.2em rgb(97, 102, 145);
+  -moz-box-shadow: 0.2em 0.2em rgb(97, 102, 145);
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(96, 124, 141) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(96, 124, 141) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(96, 124, 141) inset;
+  box-shadow: 0.2em 0.2em rgb(97, 102, 145) inset;    /* BUTTONS DROP SHADOW */
+  -webkit-box-shadow: 0.2em 0.2em rgb(97, 102, 145) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(97, 102, 145) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(218, 219, 224); 
+  background-color: rgb(227, 208, 224);   /* MAIN BACKGROUND */
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px CornflowerBlue;
+  box-shadow: 10px 10px rgb(64, 69, 101);   /* MAIN DROP SHADOW */
 }
 
 /* Display + Stop/Start/Reset Controls */
@@ -48,10 +48,10 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(150,180,175);
+  background-color: rgb(133, 144, 192);   /* SESSION AND TIMER COLOR */
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 3px 3px rgb(97, 102, 145) inset;   /* SESSION AND TIMER DROP SHADOW */
 }
 
 #display-controls {
@@ -66,11 +66,11 @@ button:focus {
   font-size: 25px;
   text-align: center;
   padding-top: 2px;
-  background-color: rgb(150,180,175);
+  background-color: rgb(133, 144, 192);   /* SESSION AND TIMER COLOR */
   border-radius: 10px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 3px 3px rgb(97, 102, 145) inset;    /* SESSION AND TIMER DROP SHADOW */
 }
 
 #timer-ssr {
@@ -102,7 +102,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid rgb(185,202,222);
+  border: 2px solid rgb(185,202,222);   /* TIMER SETTING BORDERS COLOR */
   padding: 10px;
   border-radius: 10px;
   width: 48%;
