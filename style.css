@@ -37,15 +37,14 @@ button:focus {
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(215, 208, 227);   /* MAIN BACKGROUND */
+  background-color: rgb(133, 144, 192);   /* MAIN BACKGROUND */
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px rgb(64, 69, 101);   /* MAIN DROP SHADOW */
+  box-shadow: 7px 7px rgb(64, 69, 101);   /* MAIN DROP SHADOW */
 }
 
 /* Display + Stop/Start/Reset Controls */
-
 #time-left {
   font-size: 70px;
   text-align: center;
