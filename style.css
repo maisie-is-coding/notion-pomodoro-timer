@@ -29,15 +29,15 @@ button:active {
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(97, 102, 145) inset;    /* BUTTONS DROP SHADOW */
-  -webkit-box-shadow: 0.2em 0.2em rgb(97, 102, 145) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(97, 102, 145) inset;
+  box-shadow: 0.2em 0.2em rgb(64, 69, 101) inset;    /* BUTTONS DROP SHADOW */
+  -webkit-box-shadow: 0.2em 0.2em rgb(64, 69, 101) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(64, 69, 101) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(133, 144, 192);   /* MAIN BACKGROUND */
+  background-color: rgb(97, 102, 145);   /* MAIN BACKGROUND */
   width: 350px;
   border-radius: 20px;
   padding: 30px;
@@ -52,7 +52,7 @@ button:focus {
   background-color: rgb(133, 144, 192);   /* SESSION AND TIMER COLOR */
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(97, 102, 145) inset;   /* SESSION AND TIMER DROP SHADOW */
+  box-shadow: 3px 3px rgb(64, 69, 101) inset;   /* SESSION AND TIMER DROP SHADOW */
 }
 
 #display-controls {
@@ -72,7 +72,7 @@ button:focus {
   border-radius: 10px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px rgb(97, 102, 145) inset;    /* SESSION AND TIMER DROP SHADOW */
+  box-shadow: 3px 3px rgb(64, 69, 101) inset;    /* SESSION AND TIMER DROP SHADOW */
 }
 
 #timer-ssr {
