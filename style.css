@@ -36,7 +36,7 @@ button:focus {
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(227, 208, 224);   /* MAIN BACKGROUND */
+  background-color: rgb(219, 208, 227);   /* MAIN BACKGROUND */
   width: 350px;
   border-radius: 20px;
   padding: 30px;
