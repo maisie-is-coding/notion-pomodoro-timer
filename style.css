@@ -67,7 +67,7 @@ button:focus {
 #timer-label {
   font-size: 25px;
   text-align: center;
-  text-color: white;
+  color: white;
   padding-top: 2px;
   background-color: rgb(133, 144, 192);   /* SESSION AND TIMER COLOR */
   border-radius: 10px;
@@ -104,7 +104,7 @@ button:focus {
 .break-container, 
 .session-container {
   text-align: center;
-  text-color: white;
+  color: white;
 /*   display: inline-block; */
   border: 2px solid rgb(64, 69, 101);   /* TIMER SETTING BORDERS COLOR */
   padding: 10px;
