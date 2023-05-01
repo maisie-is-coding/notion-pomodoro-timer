@@ -106,7 +106,7 @@ button:focus {
   text-align: center;
   text-color: white;
 /*   display: inline-block; */
-  border: 2px solid rgb(185,202,222);   /* TIMER SETTING BORDERS COLOR */
+  border: 2px solid rgb(64, 69, 101);   /* TIMER SETTING BORDERS COLOR */
   padding: 10px;
   border-radius: 10px;
   width: 48%;
